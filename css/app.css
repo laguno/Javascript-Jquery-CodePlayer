@@ -1,0 +1,110 @@
+body {
+    font-family: : sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: coral;
+    padding: 5px;
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 3px 5px;
+}
+
+#logoImg {
+    max-width: 75px;
+    max-height: 75px;
+    margin-right: 5px;
+}
+
+.pulsanti {
+    margin: 15px auto;
+    width: 270px;
+    font-weight: bold;
+}
+
+.toggleButton {
+    float: left;
+    border: 1px solid gray;
+    padding: 10px;
+    border-right: none;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+#html {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#output {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid gray;
+}
+
+.active {
+    background-color: chocolate;
+}
+
+.highLightedButton {
+    background-color: burlywood;
+}
+
+textarea {
+    width: 50%;
+    resize: none;
+    border-top: none;
+    border-color: gray;
+}
+.panel{
+    border: 1px solid lightblue;
+    border-right: none;
+    float: left;
+    width: 100%;
+/*    border-left: none;*/
+}
+iframe{
+    border: none;
+}
+.hidden {
+    display: none;
+}
+/*
+
+
+
+
+
+.toggleClass
+
+.logo{
+    float: left;
+}
+
+
+textarea {
+    border-top: none;
+    resize: none;
+    border-color: gray;
+}
+
+.panel {
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+
+iframe {
+    border: none;
+}
+
+
+*/
